@@ -1,1 +1,20 @@
+#####################################    Install Terraform in Ubuntu machine  ##########################
+
+
+Link-----https://developer.hashicorp.com/terraform/downloads
+
+Step 1 : Update the machine
+    sudo apt-get update -y
+Step 2 : Run this command
+    wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+Step 2 : Run the echo  command
+    echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+Step 3 : Update the machine
+    sudo apt-get update -y
+Step 4 : Install terraform
+    sudo apt-get install terraform
+Step 5 : Check the terraform version
+    terraform --version
+
+
 
