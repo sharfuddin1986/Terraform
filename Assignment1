@@ -25,16 +25,74 @@ Step-3
       nano main.tf
 
 provider "aws" {
-  region = "us-east-2"
+    access_key = "AKIAS2GMZPF5EY6MJY5G"
+    secret_key = "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"
+    region = "us-east-2"
 }
 
-resource "aws_instance" "intro" {
-  ami               = "ami-02eb7a4783e7e9317"
-  instance_type     = "t2.micro"
-  key_name          = "pem_keypair_for_all_ubuntu_machine"
-  tags = {
-    Name = "terrform_ec2_web"
-  }
+resource "aws_instance" "ec2_instance" {
+    ami = "ami-024e6efaf93d85776"
+    count = "1"
+    subnet_id = "subnet-017840f6a2c8fea36"
+    instance_type = "t2.micro"
+    key_name = "ohio-key"
+} 
+
+
+
+Step-4
+       nano variable.tf
+
+
+ variable "access_key" {
+        description = "AKIAS2GMZPF5EY6MJY5G"
+}
+variable "secret_key" {
+        description = "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"
 }
 
-        
+
+variable "instance_name" {
+        description = "Name of the instance to be created"
+        default = "Assignment1"
+}
+
+variable "instance_type" {
+        default = "t2.micro"
+}
+
+variable "subnet_id" {
+        description = "The VPC subnet the instance(s) will be created in"
+        default = "subnet-017840f6a2c8fea36"
+}
+
+variable "ami_id" {
+        description = "The AMI to use"
+        default = "ami-024e6efaf93d85776"
+}
+
+variable "number_of_instances" {
+        description = "number of instances to be created"
+        default = 1
+}
+
+
+variable "ami_key_pair_name" {
+        default = "ohio-key"
+
+Step-5 
+      nano terraform.tfvars
+
+       access_key = "AKIAS2GMZPF5EY6MJY5G"
+       secret_key = "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"
+
+
+Step-6
+      terraform init
+      terraform plan
+      terraform apply
+
+
+
+After that instanc is created in Us-east-2 region
+
