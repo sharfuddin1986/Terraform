@@ -9,4 +9,4 @@
 ######################    Follow the below command to execute the Assignment      ############################################
 Step-1    
         Create  Ec2 instanace with T2 micro and install ubuntu 22.04
-        After install terraform with follw this link(
+        After install terraform with follw this link(https://github.com/sharfuddin1986/Terraform/blob/03e224331a8d2e6c65982930a3a4103a72cc07d9/Terraform_install_Ubuntu)
