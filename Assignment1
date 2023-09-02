@@ -20,5 +20,8 @@ Step-2
 
 Step-3
         
-      
+      mkdir terraform
+      cd terraform
+      nano main.tf
+
         
