@@ -11,3 +11,14 @@ Step-1
         Create  Ec2 instanace with T2 micro and install ubuntu 22.04
         After install terraform with follow below the link
         https://github.com/sharfuddin1986/Terraform/blob/main/Terraform_install_Ubuntu
+
+
+Step-2 
+        Create IAM user and attach policies with Administrator access
+        Create secret key and access key for command line
+        install AWS CLi 
+
+Step-3
+        
+      
+        
