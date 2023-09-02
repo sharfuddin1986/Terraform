@@ -1,0 +1,15 @@
+
+
+
+############################################      Assignment-2    ####################################
+
+                                     1. Destroy the previous deployment
+                                     2. Create a new EC2 instance with an Elastic IP 
+                               
+                            
+
+######################    Follow the below command to execute the Assignment      ############################################
+Step-1    
+       terraform destroy
+       nano 
+       
