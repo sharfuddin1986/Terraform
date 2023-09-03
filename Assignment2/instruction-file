@@ -11,5 +11,5 @@
 ######################    Follow the below command to execute the Assignment      ############################################
 Step-1    
        terraform destroy
-       nano 
+       nano main.tf      
        
