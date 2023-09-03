@@ -1,0 +1,20 @@
+
+
+############################################      Assignment-3    ####################################
+
+                                1. Destroy the previous deployment
+                                2. Create 2 EC2 instances in Ohio and N.Virginia respectively
+                                3. Rename Ohio’s instance to ‘hello-ohio’ and Virginia’s instance to ‘hello-virginia’
+                            
+
+######################    Follow the below command to execute the Assignment      ############################################
+Step-1    
+        Create  Ec2 instanace with T2 micro and install ubuntu 22.04
+        After install terraform with follow below the link
+        https://github.com/sharfuddin1986/Terraform/blob/main/Terraform_install_Ubuntu
+
+
+Step-2 
+        Create IAM user and attach policies with Administrator access
+        Create secret key and access key for command line
+        install AWS CLi 
