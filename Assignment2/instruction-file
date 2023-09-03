@@ -68,6 +68,6 @@ Step-3
        terraform apply
 
 
-##################################   Note-IAM user should be AmazonEC2FullAccess permission ######################################
+################################## Note-IAM user should be AmazonEC2FullAccess permission ######################################
 
        
