@@ -1,5 +1,5 @@
 # ec2_with_eip.tf
-  GNU nano 6.2                                                     main.tf
+                                                    
 provider "aws" {
     access_key = "AKIAS2GMZPF5EY6MJY5G"
     secret_key = "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"
