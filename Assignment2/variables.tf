@@ -4,10 +4,10 @@ variable "aws_region" {
 }
 
 variable "access_key" {
-        description = "AKIAS2GMZPF5EY6MJY5G"
+        description = "AKIAS2GMZDFEFDPF5EY6MJY5G"
 }
 variable "secret_key" {
-        description = "2V+XN4Syn3odjt7vhJtVphkHsjqPOlYA/kp34dnv"
+        description = "2V+XN4Syn3odjt7vhJtDFDFDFDFDVphkHsjqPOlYA/kp34dnv"
 }
 
 variable "ami_id" {
