@@ -1,8 +1,8 @@
 variable "access_key" {
-        description = "AKIAS2GMZPF5EDFDFDFDFDFDDY6MJY5G"
+        description = "AKIAS2GMZPF5EDFDFDDFDFDFDFDFDDY6MJY5G"
 }
 variable "secret_key" {
-        description = "2V+XN4Syn3odFDFDjt7vGDFDFDhJtVphkHsjqPOlYA/kp34dnv"
+        description = "2V+XN4Syn3DFDodFDFDjt7vGDFDFDhJtVphkHsjqPOlYA/kp34dnv"
 }
 
 
