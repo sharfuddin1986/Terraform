@@ -9,6 +9,5 @@ resource "aws_instance" "ec2_instance" {
     count = "1"
     subnet_id = "subnet-017840f6a2c8fea36"
     instance_type = "t2.micro"
-    key_name = "ohio-key"
 } 
 
