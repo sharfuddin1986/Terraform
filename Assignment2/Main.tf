@@ -1,8 +1,8 @@
 # ec2_with_eip.tf
                                                     
 provider "aws" {
-    access_key = "AKIAS2GMZPF5EY6MJY5G"
-    secret_key = "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"
+    access_key = "AKIAS2SDSDSDSGMZPF5EY6MJY5G"
+    secret_key = "2V+XN4Syn3oSFSFSFSdjFFFt7vhJtVphkHsjqPOlYA/kp34dnv"
     region = "us-east-1"
 }
 resource "aws_instance" "example" {
