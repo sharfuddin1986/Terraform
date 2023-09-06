@@ -1,3 +1,3 @@
 
-access_key = "AKIAS2GMZPDFGDGVDVDFDFDFSFSEDGFGFFGFS5EY6MJY5G"
-secret_key = "2V+XN4Syn3DVDVodjt7FGFGFGFGFvhJtVphkHsjqPOlYAXX/kp34dnv"
+access_key = "your_Acess_key"
+secret_key = "your_Secret_key"
