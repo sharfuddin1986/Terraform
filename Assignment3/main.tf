@@ -1,4 +1,4 @@
-US-east-1 region main.tf file
+us-east-1 region main.tf file
 
 provider "aws" {
     alias = "NV"
