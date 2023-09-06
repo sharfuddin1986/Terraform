@@ -1,8 +1,8 @@
 variable "access_key" {
-        description = "AKIAS2GMZPF5EDFDFDDFDFDFDFDFDDY6MJY5G"
+        description = "Your_Acess_key"
 }
 variable "secret_key" {
-        description = "2V+XN4Syn3DFDodFDFDjt7vGDFDFDhJtVphkHsjqPOlYA/kp34dnv"
+        description = "Your_secret_key"
 }
 
 
@@ -31,6 +31,3 @@ variable "number_of_instances" {
 }
 
 
-variable "ami_key_pair_name" {
-        default = "ohio-key"
-}
