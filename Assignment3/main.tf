@@ -23,8 +23,8 @@ US-east-2 region main.tf file
 
 provider "aws" {
     alias = "NV"
-    access_key = "AKIAS2GMZPF5COAOPF6L"
-    secret_key = "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"
+    access_key = "Acess_key"
+    secret_key = "Secret_key"
     region = "us-east-2"
 }
 
