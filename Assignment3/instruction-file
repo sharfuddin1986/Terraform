@@ -17,3 +17,12 @@ Step-2
         Create IAM user and attach policies with Administrator access
         Create secret key and access key for command line
         install AWS CLi 
+        mkdir terraform
+        cd terraform 
+        sudo nano main.tf
+        sudo terraform init
+        sudo terraform validate
+        sudo terraform plan
+        sudo terraform apply
+
+  
