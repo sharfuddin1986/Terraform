@@ -14,8 +14,8 @@ Step-1
        nano main.tf  
 
 provider "aws" {
-    access_key = "AKIRERERFEYAETEEY5JKKUS2GMKZPF5EY6MJY5G"
-    secret_key = "2V+XN4Syn3THTHTRRKUodjt7vhYJYJYJYJtVphkHsjqPOlYA/kp34dnv"
+    access_key = "Your_acess_key"
+    secret_key = "Your_secret_key"
     region = "us-east-1"
 }
 resource "aws_instance" "example" {
@@ -37,10 +37,10 @@ variable "aws_region" {
 }
 
 variable "access_key" {
-        description = "AKIAS2GMZPFGRGRGRGEY5JTJHHF5EY6MJY5G"
+        description = "Your_acess_key"
 }
 variable "secret_key" {
-        description = "2V+XN4GSyn3odGRGRjt7vhJtVpGFGFhkHsjqPOlYA/kp34dnv"
+        description = "Your_secret_key"
 }
 
 variable "ami_id" {
